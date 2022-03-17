@@ -1,0 +1,60 @@
+*{
+    margin:0;
+}
+html{
+    background-color: gray;
+}
+#interruptorOn{
+    display:none;
+    width: 10vw;
+}
+#interruptorOff{
+    display:block;
+    width: 10vw;
+}
+#lampadaOff{
+    display:block;
+    width: 10vw;
+    transform: rotate(180deg);
+    
+
+}
+#lampadaOn{
+    display:none;
+    width: 10vw;
+    transform: rotate(180deg);
+}
+#interruptores{
+display: flex;
+}
+#lampadas{
+    display: flex;
+    margin-left: 42vw;
+}
+@media screen and (min-device-width: 350px) and (max-device-width: 900px) {
+
+    #interruptorOn{
+      
+        width: 15vw;
+    }
+    #interruptorOff{
+        display:block;
+        width: 15vw;
+    }
+    #lampadaOff{
+        display:block;
+        width: 15vw;
+        
+        
+    
+    }
+    #lampadaOn{
+      
+        width: 15vw;
+        
+    }
+    
+    #lampadas{
+        
+        margin-left: 42vw;
+}}
